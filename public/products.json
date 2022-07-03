@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "name": "Book",
+        "image": "https://i.ibb.co/HrfDwVS/book.png",
+        "description": "Take books as your close friend. Lookup at our bookstore and find your favourite one.",
+        "price": 50
+    },
+    {
+        "_id": 2,
+        "name": "Ring",
+        "image": "https://i.ibb.co/w7F3wBZ/ring.png",
+        "description": "Wedding ring that will blow your mind. Gift your loved one.",
+        "price": 150
+    },
+    {
+        "_id": 3,
+        "name": "Shoe",
+        "image": "https://i.ibb.co/9HfXYyx/shoe.png",
+        "description": "Comfortable and fashionable shoe for summer. Different sizes available.",
+        "price": 70
+    },
+    {
+        "_id": 4,
+        "name": "Bag",
+        "image": "https://i.ibb.co/fr7h9qQ/bag.png",
+        "description": "Gorgeous looking bag. Carry your loved things. ",
+        "price": 50
+    },
+    {
+        "_id": 5,
+        "name": "Laptop",
+        "image": "https://i.ibb.co/jWg4R8n/laptop.png",
+        "description": "Budget and heavy workable laptop. Long battery life and latest software update is the catch.",
+        "price": 200
+    },
+    {
+        "_id": 6,
+        "name": "Sofa",
+        "image": "https://i.ibb.co/4N8bjRY/furniture.png",
+        "description": "This sofa is for making your interior design awesome. Comfortable and perfect for leisure time.",
+        "price": 160
+    }
+]

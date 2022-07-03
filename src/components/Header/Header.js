@@ -10,7 +10,7 @@ const Header = () => {
             <div class="flex-none">
                 <ul class="menu menu-horizontal p-2">
                     <li><HashLink className='text-white' smooth to='/#home'>Home</HashLink></li>
-                    <li> <HashLink className='text-white' smooth to='/#products'>Products</HashLink></li>
+                    <li><HashLink className='text-white' smooth to='/#products'>Products</HashLink></li>
                 </ul>
             </div>
         </div>

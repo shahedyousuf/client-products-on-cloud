@@ -8,9 +8,9 @@ const Info = () => {
                 <div class="hero-content flex-col lg:flex-row">
                     <img src={shopping} class="max-w-sm rounded-lg shadow-2xl" />
                     <div>
-                        <h1 className='text-accent text-3xl font-bold'>Best in the market!</h1>
+                        <h1 className='text-primary text-3xl font-bold'>Best in the market!</h1>
                         <p class="py-6">Are you looking for products for daily needs but don't have time to go to shopping center. Products on cloud will help you to solve this issue. You add cost efficient products to your cart that you love.</p>
-                        <button class="btn btn-primary">Get Started</button>
+                        <button class="btn btn-accent">Get Started</button>
                     </div>
                 </div>
             </div>
