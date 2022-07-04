@@ -4,7 +4,7 @@
         "name": "Book",
         "image": "https://i.ibb.co/HrfDwVS/book.png",
         "description": "Take books as your close friend. Lookup at our bookstore and find your favourite one.",
-        "price": 50
+        "price": 100
     },
     {
         "_id": 2,
