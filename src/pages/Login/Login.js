@@ -56,12 +56,12 @@ const Login = () => {
 
     return (
         <div>
-            <h2 className='text-accent text-center p-2 mb-2 text-2xl font-bold'>Login</h2>
+            <h2 className='text-accent ml-10 p-2 mb-2 text-2xl font-bold'>Login</h2>
             <>
                 <form onSubmit={handleSignIn} className='form-container'>
-                    <input onChange={handleEmail} className='mb-2 p-2 ml-10 border border-gray-400 w-3/4' type="email" name="email" placeholder='Enter email address' required />
+                    <input onChange={handleEmail} className='mb-2 p-2 ml-10 border border-gray-400 w-1/2' type="email" name="email" placeholder='Enter email address' required />
                     <br />
-                    <input onChange={handlePassword} className='mb-2 p-2 ml-10 border border-gray-400 w-3/4' type="password" name="password" placeholder='Enter password' required />
+                    <input onChange={handlePassword} className='mb-2 p-2 ml-10 border border-gray-400 w-1/2' type="password" name="password" placeholder='Enter password' required />
                     <br />
                     <input className='ml-10 bg-accent p-2 rounded text-center' type='submit' value="Login" />
                 </form>
