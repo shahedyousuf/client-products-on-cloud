@@ -7,7 +7,6 @@ import Products from '../../components/Products/Products';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <Info></Info>
             <Products></Products>
             <Footer></Footer>

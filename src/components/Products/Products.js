@@ -1,9 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
 import useProducts from '../../hooks/useProducts';
 import Product from './Product';
 
 const Products = () => {
+    const [user] = useAuthState(auth);
     const [products, setProducts] = useProducts();
+
+    const navigate = useNavigate();
+    const showAll = () => {
+        navigate(`/allProducts`)
+    }
 
     return (
         <div>
@@ -14,6 +23,10 @@ const Products = () => {
                         key={product._id}
                         product={product}
                     ></Product>)
+                }
+                {
+                    user &&
+                    <button onClick={showAll} className='btn btn-link'>Show all products</button>
                 }
             </div>
         </div>

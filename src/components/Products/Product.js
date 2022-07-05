@@ -20,7 +20,6 @@ const Product = ({ product }) => {
                     <p>Price: <b className='text-primary'>${price}</b></p>
                     <div class="card-actions">
                         <button onClick={() => handleDetails(_id)} class="btn btn-accent">Details</button>
-                        <button class="btn btn-accent">Add to cart</button>
                     </div>
                 </div>
             </div>
